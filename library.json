@@ -1,0 +1,22 @@
+{
+  "name": "NFCWrapper",
+  "keywords": "PN532",
+  "description": "Arduino Library for Dallas Temperature ICs (DS18B20, DS18S20, DS1822, DS1820)",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/DudleySmith/NFCWrapper.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Sébastien Albert",
+      "email": "contact@studio-albert.com",
+      "url": "http://www.studio-albert.com",
+      "maintainer": true
+    }
+  ],
+  "version": "0.2.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}

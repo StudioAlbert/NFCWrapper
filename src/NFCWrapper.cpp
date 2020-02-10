@@ -1,4 +1,4 @@
-#include "NCNS-NFCWrapper.h"
+#include "NFCWrapper.h"
 
 // Uncomment to verbose and debug
 //#define WRAP_DEBUG
