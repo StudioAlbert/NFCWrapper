@@ -4,7 +4,7 @@
 //#define WRAP_DEBUG
 
 NFCMifareWrapper::NFCMifareWrapper() :
-nfc(PN532_SS)
+nfc(PN532_IRQ, PN532_RESET)
 {
   //uid = { 0, 0, 0, 0, 0, 0, 0 };  // Buffer to store the returned UID
   numOfSector = 16;                 // Assume Mifare Classic 1K for now (16 4-block sectors)
